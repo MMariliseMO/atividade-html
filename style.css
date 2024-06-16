@@ -1,0 +1,57 @@
+/*resetar informações padrões*/
+*{
+    margin: 0; /*remove qualquer margem padrão do navegador*/
+    padding: 0; /*remove qualquer margem padrão do navegador*/
+    box-sizing: border-box; /*evitar problemas de layouts*/
+}
+
+/*formatar meu corpo principal*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px; /*cria um espaço entre o conteúdo*/
+    line-height: 1.6; /*defina a altura*/
+    background-color: #ffffff;
+}
+
+/*formatar a minha tag main*/
+main{
+    text-align: center; /*centralizar os itens*/
+    margin: 0 auto; /*margem superior e inferior como 0*/
+    max-width: 800px;/*define a largura máxima que ele pode ter*/
+}
+
+/*os itens da tabela*/
+h1{
+    margin-bottom: 25px; /*define uma margem inferior*/
+    color: #000000;
+}
+
+table{
+    width: 100%; /*altura exata, faz com que a tabela ocupe o espaço completo horizontalmente*/
+    border-collapse: collapse; /*remove os espaços entre as margens das células*/
+    margin-bottom: 20px; /*define uma margem inferior de 20px*/
+}
+
+table, th, td {
+    border: 1px solid #050404; /*bordas sólidas de 1px e de cor preta*/
+}
+
+th, td {
+    padding: 10px; /*preenchimento interior de 10x para as células e cria um espaço entre elas*/
+}
+
+button{
+    padding: 15px 20px; /*define o preenchimento interno do botão como 15 pixels na parte superior e inferior e 20 pixels na esquerda e direita. Isso define o tamanho do botão e o espaçamento interno.*/
+    background-color: #6075ff; /*cor do fundo do botão*/
+    color: antiquewhite;/*cor do texto do botão*/
+    border: none; /*remove a borda do botão*/
+    cursor: pointer; /*indica que ele é clicável*/
+    font-size: 16px; /*tamanho da fonte*/
+    border-radius: 5px; /*cantos arredondados*/
+}
+
+button:hover {
+    background-color: #0056b3; /*quando o cursos está sobre ele, fica um azul mais escuro*/
+}
+
+
