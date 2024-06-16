@@ -26,9 +26,9 @@ function renderTable(users) {
 
         const row = document.createElement('tr')
 
-        const cellIndex = document.createElement('td');
-        cellIndex.textContent = index + 1;
-        row.appendChild(cellIndex); 
+        const sequenciaNumerica = document.createElement('td');
+        sequenciaNumerica.textContent = index + 1;
+        row.appendChild(sequenciaNumerica); 
 
         const primeiroNome = document.createElement('td');
         primeiroNome.textContent = user.name.first;
