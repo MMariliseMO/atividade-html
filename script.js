@@ -1,13 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const recarregarBotao = document.getElementById('recarregarBotao'); 
-
-    const userTableBody = document.getElementById('usertable').getElementsByTagName('tbody')[0];
- 
+const recarregarBotao = document.getElementById('recarregarBotao'); 
+const userTableBody = document.getElementById('usertable').getElementsByTagName('tbody')[0];
 
 async function fetchUsers(){
-    try{
+    try {
         const response = await fetch('https://randomuser.me/api/?results=10&nat=br');
-
         const data = await response.json();
 
         return data.results;
@@ -57,14 +53,9 @@ function renderTable(users) {
 }
 
 async function atualizarTabela(){
-    
     const usuario = await fetchUsers();
-
     renderTable(usuario);
 }
 
 recarregarBotao.addEventListener('click', atualizarTabela);
-
 atualizarTabela();
-
-});

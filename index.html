@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade HTML</title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade HTML</title>
+        <link rel="stylesheet" href="style.css">
 
-</head>
+    </head>
 
-<body>
-    <main> <!--corpo principal-->
-<!-- Criar uma tabela usando HTML que contenha o Nome, Sobrenome, Idade, Cidade e é pra trazer o foto do usuario. Na tela que você vai construir a tabela tem que existir um botão que ao clicar o recarrega a página e renderiza a tabela com 10 novos usuários.
-Detalhe, divida os arquivos, HTML tem código HTML e JS só tem JS.  E claro, cada usuario na tabela tem que ser numerado.
-Então cada linha da tabela tem que ter: uma numeração, nome, sobrenome, idade, cidade e a foto. Essa numeração é sequencial. Essas informações serão consultadas em uma api e tabela será preenchida com os dados que vem de lá. Tem que ter um botão "Atualizar" que se eu clicar ele deve recarregar a página e construir a tabela com novas informações. Ao invés de recarregar um usuário ele vai recarga a tela e preencher a tabela com 10 novos usuarios--> 
+    <body>
+        <main> <!--corpo principal-->
+    <!-- Criar uma tabela usando HTML que contenha o Nome, Sobrenome, Idade, Cidade e é pra trazer o foto do usuario. Na tela que você vai construir a tabela tem que existir um botão que ao clicar o recarrega a página e renderiza a tabela com 10 novos usuários.
+    Detalhe, divida os arquivos, HTML tem código HTML e JS só tem JS.  E claro, cada usuario na tabela tem que ser numerado.
+    Então cada linha da tabela tem que ter: uma numeração, nome, sobrenome, idade, cidade e a foto. Essa numeração é sequencial. Essas informações serão consultadas em uma api e tabela será preenchida com os dados que vem de lá. Tem que ter um botão "Atualizar" que se eu clicar ele deve recarregar a página e construir a tabela com novas informações. Ao invés de recarregar um usuário ele vai recarga a tela e preencher a tabela com 10 novos usuarios--> 
 
-        <h1>Tabela com Nome, Sobrenome, Idade, Cidade e Foto dos usuários.</h1>
-        
-        <table id = "usertable"> 
-            <thead> 
-                <tr> 
-                    <th></th> 
-                    <th>Nome</th>
-                    <th>Sobrenome</th>
-                    <th>Idade</th>
-                    <th>Cidade</th>
-                    <th>Foto</th>
-                </tr>
-            </thead>
+            <h1>Tabela com Nome, Sobrenome, Idade, Cidade e Foto dos usuários.</h1>
+            
+            <table id = "usertable"> 
+                <thead> 
+                    <tr> 
+                        <th></th> 
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Idade</th>
+                        <th>Cidade</th>
+                        <th>Foto</th>
+                    </tr>
+                </thead>
 
-            <tbody> <!--corpo da tabela que irá receber os dados da API -->
-                <!--Dados da API-->
-            </tbody>
+                <tbody> <!--corpo da tabela que irá receber os dados da API -->
+                    <!--Dados da API-->
+                </tbody>
 
-        </table>
-<br>
-
-<button id = "recarregarBotao"> Atualizar </button>   
-
-    </main>
-
-    <script src="script.js"></script>
-
-</body>
+            </table>
+            <br>
+            <button id = "recarregarBotao"> Atualizar </button>
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>
-
-      
