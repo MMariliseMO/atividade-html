@@ -1,3 +1,3 @@
 # Atividade HTML
 
-Esse projeto tem como testar minhas habilidades em HTML, CSS e JavaScript
+Esse projeto tem como objetivo testar minhas habilidades em HTML, CSS e JavaScript. 
