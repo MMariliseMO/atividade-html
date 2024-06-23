@@ -1,2 +1,3 @@
-# atividade-html
- atividade com html - css e javascript
+# Atividade HTML
+
+Esse projeto tem como testar minhas habilidades em HTML, CSS e JavaScript
